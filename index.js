@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { join } = require('path');
 const { existsSync, writeFileSync } = require('fs');
 const os = require('os');
