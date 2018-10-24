@@ -1,0 +1,27 @@
+{
+  "name": "sort-npm-scripts",
+  "version": "0.0.0",
+  "description": "Sort package.json scripts alphabetically. Great as pre-commit hook.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sort-object-keys": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanLovely/sort-npm-scripts.git"
+  },
+  "keywords": [
+    "sort",
+    "npm-scripts",
+    "git-hooks"
+  ],
+  "author": "Evan Lovely",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanLovely/sort-npm-scripts/issues"
+  },
+  "homepage": "https://github.com/EvanLovely/sort-npm-scripts#readme"
+}
