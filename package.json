@@ -2,7 +2,7 @@
   "name": "sort-npm-scripts",
   "version": "1.0.0",
   "description": "Sort package.json scripts alphabetically. Great as pre-commit hook.",
-  "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
