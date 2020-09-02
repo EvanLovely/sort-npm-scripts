@@ -12,4 +12,10 @@ if (!existsSync(pkgPath)) {
 
 const pkg = require(pkgPath);
 pkg.scripts = sortObjectKeys(pkg.scripts);
+if (pkg.dependencies) {
+  pkg.dependencies = sortObjectKeys(pkg.dependencies);
+}
+if (pkg.devDependencies) {
+  pkg.devDependencies = sortObjectKeys(pkg.devDependencies);
+}
 writeFileSync(pkgPath, JSON.stringify(pkg, null, '  ') + os.EOL);
